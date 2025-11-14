@@ -1,1 +1,7 @@
+This repository is for preaparing AWS Open Data Registry for the data of CCRS MODIS Albedo Over Canada at 250-m Resolution and 10-day Intervals, inlcudes three files:
 
+  CCRSMODISAlbedo.yml: entry on the Registry of Open Data 
+  
+  Descriptivedocumentation_CCRSMODISAlbedo.pdf: this documentation describes how the data is organized, how users can find the data they need, and how users can use the data.
+  
+  get-to-know-a-dataset-CCRSMODISAlbedo.ipynb:  tutorial notebook 
