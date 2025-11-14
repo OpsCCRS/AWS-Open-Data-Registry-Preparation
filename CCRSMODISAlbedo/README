@@ -14,7 +14,7 @@ The repository includes the following key files to assist with data registration
 * **`Descriptivedocumentation_CCRSMODISAlbedo.pdf`**
     * A PDF document detailing the dataset. This guide helps users understand:
         * How the data is organized and structured.
-        * Methods for finding and subsetting the required data.
+        * Methods for finding the required data.
         * Instructions for using the data.
 
 * **`get-to-know-a-dataset-CCRSMODISAlbedo.ipynb`**
