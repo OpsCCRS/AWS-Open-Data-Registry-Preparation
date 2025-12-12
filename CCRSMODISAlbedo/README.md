@@ -171,8 +171,7 @@ coordinate system string =
 The data is delivered as one map (file) for the entire area for each
 parameter. An example, of the false color image is given in Figure 1.
 
-<img width="839" height="716" alt="image" src="https://github.com/user-attachments/assets/68d5f62a-faa1-4a53-a74d-dd315bfd2a79" />
-
+<img width="839" height="716" alt="image" src="https://github.com/OpsCCRS/AWS-Open-Data-Registry-Preparation/blob/main/CCRSMODISAlbedo/src/Fig1.png" >
 
 Figure 1. An example of the false colour image for coverage area used
 for CCRS albedo mapping.
