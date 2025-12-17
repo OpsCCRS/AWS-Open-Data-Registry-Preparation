@@ -9,28 +9,31 @@ UpdateFrequency: Semi-annually, until the end of MODIS operations
 Tags:
   - aws-pds 
   - analysis ready data
-  - broadband
-  - Canada
-  - COG
+  - broadband  
+  - cog
   - earth observation
   - satellite imagery
 License: Creative Commons Licence. Creative Commons BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Citation: Trishchenko, Alexander P. 2025. CCRS MODIS albedo over Canada at 250-m resolution and 10-day intervals. 
 Resources:
-  - Description: Cloud Optimized GeoTIFF (COG) images
-    ARN: arn:aws:s3::: ccrs-modis-albedo
+  - Description: CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images
+    ARN: arn:aws:s3:::ccrs-modis-albedo
     Region: ca-central-1
     Type: S3 Bucket    
+  - Description:  Notifications for new CCRS MODIS Albedo data
+    ARN: arn:aws:sns:ca-central-1:675987781521:ccrs-modis-albedo-object_created
+    Region: ca-central-1
+    Type: SNS Topic   
 DataAtWork:
   Tutorials:
-    - Title: Get To Know A Dataset - MCCRS MODIS Albedo at 250-m resolution and 10-day intervals
+    - Title: Get To Know A Dataset - CCRS MODIS Albedo at 250-m resolution and 10-day intervals
       URL: https://github.com/OpsCCRS/AWS-Open-Data-Registry-Preparation/blob/main/CCRSMODISAlbedo/get-to-know-a-dataset-CCRSMODISAlbedo.ipynb
       Services: 
       AuthorName: Alexander Trichtchenko
       AuthorURL: https://profils-profiles.science.gc.ca/en/profile/alexander-p-trishchenko
       NotebookURL (Optional): https://github.com/OpsCCRS/AWS-Open-Data-Registry-Preparation/blob/main/CCRSMODISAlbedo/get-to-know-a-dataset-CCRSMODISAlbedo.ipynb   
   Publications:
-    - Title: Boreal lichen woodlands: a possible negative feedback to climate change in eastern North America
+    - Title: Boreal lichen woodlands:a possible negative feedback to climate change in eastern North America
       URL: https://doi.org/10.1016/j.agrformet.2010.12.013
       AuthorName: Bernier, P.Y., Desjardins, R.L., Karimi-Zindashty, Y., Worth, D., Beaudoin, A., Luo, Y., Wang, S.
     - Title: Detection of North American land cover change between 2005 and 2010 with 250m MODIS data
@@ -94,6 +97,6 @@ DataAtWork:
       URL:  https://doi.org/10.1109/IGARSS.2018.8519558
       AuthorName: Trishchenko, Alexander P., Ungureanu, Calin
     - Title: Probability of the annual minimum snow and ice (MSI) presence over Canada
-      URL:https://open.canada.ca/data/en/dataset/808b84a1-6356-4103-a8e9-db46d5c20fcf 
+      URL: https://open.canada.ca/data/en/dataset/808b84a1-6356-4103-a8e9-db46d5c20fcf
       AuthorName: Trishchenko, Alexander P.                                              
           
