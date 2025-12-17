@@ -28,9 +28,9 @@ Data Registry.
 
 **2.1 S3 Bucket Location**
 
--   **Bucket Name:**
+-   **Bucket Name:** ccrs-modis-albedo
 
--   **Access:**
+-   **Access:** S3 URI (s3://ccrs-modis-albedo/); URL (https://ccrs-modis-albedo.s3.ca-central-1.amazonaws.com/)
 
 **2.2 File Naming Convention**
 
