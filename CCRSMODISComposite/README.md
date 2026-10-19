@@ -121,7 +121,7 @@ coordinate system string \= {PROJCS\["Lambert\_Conformal\_Conic",GEOGCS\["GCS\_W
 
 **4.2 Tiling System**
 
-The data is delivered as one map (file) for the entire area for each parameter. An example, of the false color image is given in Figure 1\. 
+The data is delivered as one map (file) for the entire area for each parameter. An example of the false color image is given in Figure 1\. 
 
 <img width="839" height="716" alt="image" src="https://github.com/OpsCCRS/AWS-Open-Data-Registry-Preparation/blob/main/CCRSMODISAlbedo/src/Fig1.png" >
 
